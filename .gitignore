@@ -1,0 +1,30 @@
+# macOS system files
+.DS_Store
+._*
+
+# Dependencies (Puppeteer — dev only, 1.2 GB)
+node_modules/
+
+# Claude Code runtime state
+.claude/
+
+# Dev screenshots (not part of the site)
+temporary screenshots/
+
+# Deploy artifacts (regenerated from source — not committed)
+deploy/
+callrooterchampion-upload.zip
+
+# Reference screenshots — kept locally, not pushed
+jettersndrains.com_.png
+www.framer.com_domains__*.png
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
