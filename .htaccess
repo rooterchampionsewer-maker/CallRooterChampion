@@ -1,0 +1,5 @@
+# Hostinger deploys this repo straight into public_html, so keep project files
+# (notes, build scripts, package files) from being readable on the web.
+<FilesMatch "(\.(md|mjs|json)|^\.gitignore)$">
+  Require all denied
+</FilesMatch>

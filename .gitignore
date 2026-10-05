@@ -28,3 +28,6 @@ www.framer.com_domains__*.png
 # Logs
 *.log
 npm-debug.log*
+
+# Local unzip of the upload zip (Finder creates this on double-click)
+callrooterchampion-upload/
