@@ -23,7 +23,7 @@ const mime = {
 
 http.createServer((req, res) => {
   let urlPath = req.url.split('?')[0];           // strip ?v= cache-busting query strings
-  if (urlPath === '/') urlPath = '/index.html';
+  if (urlPath.endsWith('/')) urlPath += 'index.html';   // /fullerton/ → /fullerton/index.html
   const filePath = path.join(ROOT, urlPath);
   const ext = path.extname(filePath);
   const type = mime[ext] || 'application/octet-stream';

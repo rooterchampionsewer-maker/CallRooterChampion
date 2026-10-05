@@ -26,12 +26,24 @@ commit one project's changes into the other.
 ## Brand Assets
 - Always check the `brand_assets/` folder before designing — use real logos/photos, not placeholders.
 - Brand colors: rc-navy `#274A6A`, rc-blue `#53A6DC`, rc-green `#81B752`, rc-black `#010000`, rc-light `#EFF0F1`.
-- Fonts: Barlow Condensed (headings) / DM Sans (body). Phone: 714-305-9263.
-- The card and section styling intentionally mirrors rooterchampion.net so the two sites feel related.
+- Fonts: Montserrat (headings) / Public Sans (body). Phone: 714-305-9263.
+  (Changed Oct 2026 from Barlow Condensed / DM Sans; rooterchampion.net is planned to follow.)
+- Layout reference the owner picked: plumbinggroupservices.com.au (dark photo hero with stacked
+  icon headline + check list + side card, tinted photo tiles, bright call band, white review cards).
+- Use real job-site photos from `brand_assets/web/` (compressed copies). Avoid the 3D renders
+  (Clean, Inspect, Repair, Verify, PipeBurst, Roboticsdiagram, VanMap) — they read as AI/stock.
 
 ## Output Defaults
 - Single `index.html`, shared `styles.css` + `scripts.js` (copied from the main site).
 - Tailwind via CDN. Mobile-first responsive.
+
+## Don't Look AI-Made (owner's explicit concern)
+- No glowing/colored button shadows, no star "pills", no tiny uppercase eyebrow labels over headings.
+- No radial glows, glassmorphism, dashed "blueprint" boxes, numbered 01/02/03 cards.
+- Exception the owner chose: the hero offer card uses rc-navy with the original sites' faint blue
+  grid lines (`.offer` in styles.css). Keep grids subtle and limited to that kind of accent.
+- Plain, specific copy; avoid slogans ("no mess, no stress"). Uppercase only for section headings.
+- Mix light and dark sections; don't make every section dark navy.
 
 ## Anti-Generic Guardrails (same as main site)
 - No default Tailwind palette (no indigo/blue-600). Use the brand colors above.

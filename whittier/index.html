@@ -43,23 +43,24 @@
     document.addEventListener("DOMContentLoaded", function () {
       document.querySelectorAll("a[href^=\"tel:\"]").forEach(function (el) {
         el.addEventListener("click", function () {
-          gtag("event", "phone_call_click", { event_category: "engagement", event_label: el.getAttribute("href") });
+          gtag("event", "phone_call_click", { event_category: "engagement", event_label: el.getAttribute("href"), city: "Whittier" });
         });
       });
     });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="brand_assets/bryan.png">
-  <title>Plumber | $55 Drain Cleaning + Free Camera Inspection | Rooter Champion</title>
-  <meta name="description" content="Licensed plumbers: $55 drain cleaning with a free camera inspection from Rooter Champion. Same-day sewer & drain service across Los Angeles & Orange County. Licensed & insured. Call 714-305-9263.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/png" href="../brand_assets/bryan.png">
+  <title>Whittier Plumber | $55 Drain Cleaning + Free Camera Inspection | Rooter Champion</title>
+  <meta name="description" content="Licensed plumbers: $55 drain cleaning with a free camera inspection from Rooter Champion. Same-day sewer & drain service in Whittier, CA (90601, 90602, 90603, 90604, 90605). Licensed & insured. Call 714-305-9263.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Rooter Champion">
-  <meta property="og:title" content="$55 Drain Cleaning + Free Camera Inspection | Rooter Champion">
-  <meta property="og:description" content="Same-day sewer & drain service across LA & Orange County. Licensed & insured. Call 714-305-9263.">
-  <meta property="og:image" content="brand_assets/web/Road.jpg">
+  <meta property="og:title" content="$55 Drain Cleaning in Whittier, CA | Rooter Champion">
+  <meta property="og:description" content="Same-day sewer & drain service in Whittier, CA. Licensed & insured. Call 714-305-9263.">
+  <meta property="og:image" content="../brand_assets/web/Road.jpg">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Plumber","name":"Rooter Champion","description":"$55 drain cleaning with free camera inspection. Sewer & drain experts serving Los Angeles & Orange County.","telephone":"714-305-9263","areaServed":["Los Angeles County, CA","Orange County, CA"]}
+  {"@context":"https://schema.org","@type":"Plumber","name":"Rooter Champion","description":"$55 drain cleaning with free camera inspection in Whittier, CA.","telephone":"714-305-9263","address":{"@type":"PostalAddress","streetAddress":"1401 S Beach Blvd","addressLocality":"La Habra","addressRegion":"CA","postalCode":"90631","addressCountry":"US"},"areaServed":{"@type":"City","name":"Whittier","containedInPlace":{"@type":"AdministrativeArea","name":"Los Angeles County, CA"}}}
   </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,7 +74,7 @@
       } }
     }
   </script>
-  <link rel="stylesheet" href="styles.css?v=8">
+  <link rel="stylesheet" href="../styles.css?v=8">
 </head>
 <body class="bg-white text-[#0E2033] font-body">
 
@@ -81,7 +82,7 @@
   <header class="bg-[#0E2033]">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 sm:h-20">
       <div class="flex items-center gap-3 sm:gap-4 min-w-0">
-        <img src="brand_assets/MainLogo.png" alt="Rooter Champion" class="h-9 sm:h-12 w-auto">
+        <img src="../brand_assets/MainLogo.png" alt="Rooter Champion" class="h-9 sm:h-12 w-auto">
         <span class="font-heading font-bold text-[11px] sm:text-sm text-white/85 leading-tight border-l border-white/25 pl-3 sm:pl-4">Plumbing<span class="hidden sm:inline"> &middot; </span><br class="sm:hidden">Drains &middot; Sewer</span>
       </div>
       <div class="flex items-center gap-5">
@@ -95,12 +96,12 @@
 
   <!-- ===== HERO ===== -->
   <section class="relative bg-[#0E2033] text-white overflow-hidden">
-    <img src="brand_assets/web/DRAINEDITED-1.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" style="object-position:60% 40%">
+    <img src="../brand_assets/web/DRAINEDITED-1.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" style="object-position:60% 40%">
     <div class="absolute inset-0" style="background:linear-gradient(90deg,rgba(14,32,51,0.94) 0%,rgba(14,32,51,0.86) 50%,rgba(14,32,51,0.7) 100%)"></div>
 
     <div class="relative max-w-6xl mx-auto px-5 sm:px-6 py-12 lg:py-20 grid lg:grid-cols-[1fr_400px] gap-10 lg:gap-14 items-center">
       <div class="relative">
-        <p class="font-heading font-extrabold text-[#53A6DC] mb-4" style="font-size:clamp(1.15rem,2.2vw,1.6rem)"><!--HERO-KICKER-->Plumbers in LA &amp; Orange County<!--/HERO-KICKER--></p>
+        <p class="font-heading font-extrabold text-[#53A6DC] mb-4" style="font-size:clamp(1.15rem,2.2vw,1.6rem)">Plumbers in Whittier, CA</p>
         <h1 class="font-heading font-extrabold leading-[1.1]" style="font-size:clamp(2rem,4.6vw,3.4rem);letter-spacing:-0.01em">
           <span class="hero-line">
             <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 10h22v8H8zM30 12h6a4 4 0 014 4v6M40 22v4" /><path d="M40 30c-2 3-3 5-3 6.5a3 3 0 006 0c0-1.5-1-3.5-3-6.5z" fill="#53A6DC" stroke="none"/><path d="M14 18v10M24 18v10M10 28h18"/></svg>
@@ -110,10 +111,10 @@
             <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="14" width="28" height="20" rx="3"/><path d="M34 21l8-5v16l-8-5"/><circle cx="20" cy="24" r="5" stroke="#53A6DC"/></svg>
             <span>Free Camera Inspection.</span>
           </span>
-          <!--H1-LINE3--><span class="hero-line">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="25" r="15"/><path d="M24 16v9l6 4" stroke="#53A6DC"/><path d="M19 6h10"/></svg>
-            <span>Same-Day Service.</span>
-          </span><!--/H1-LINE3-->
+          <span class="hero-line">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 43s13-12.5 13-23a13 13 0 00-26 0c0 10.5 13 23 13 23z"/><circle cx="24" cy="20" r="5" stroke="#53A6DC"/></svg>
+            <span>Serving Whittier.</span>
+          </span>
         </h1>
 
         <div class="border-t-2 border-dashed border-white/40 mt-8 pt-7">
@@ -131,7 +132,7 @@
       <!-- Booking card: brand navy with the original pages' grid, $55 badge as the seal -->
       <div class="offer relative overflow-hidden rounded-md text-white" style="box-shadow:0 18px 40px -12px rgba(0,0,0,0.55)">
         <div class="relative px-6 pt-7 pb-6 sm:px-10 sm:pt-9 sm:pb-8 lg:px-7 text-center">
-          <img src="brand_assets/thefiftyfivelogo-hero.png" alt="$55 drain cleaning with camera inspection" class="w-32 sm:w-40 lg:w-36 mx-auto" style="filter:drop-shadow(0 8px 16px rgba(0,0,0,0.45))">
+          <img src="../brand_assets/thefiftyfivelogo-hero.png" alt="$55 drain cleaning with camera inspection" class="w-32 sm:w-40 lg:w-36 mx-auto" style="filter:drop-shadow(0 8px 16px rgba(0,0,0,0.45))">
           <p class="font-heading font-extrabold uppercase leading-none mt-5 text-[2rem] sm:text-[2.6rem] lg:text-[2.1rem]" style="letter-spacing:-0.01em"><span class="text-[#81B752]">$55</span> Drain Cleaning</p>
           <p class="font-heading font-bold text-lg sm:text-xl mt-2 text-[#53A6DC]">+ FREE Camera Inspection</p>
           <div class="h-px bg-white/15 my-5 sm:my-6"></div>
@@ -139,7 +140,7 @@
             <li class="dot">We clear the clogged drain</li>
             <li class="dot">You see what caused the clog</li>
           </ul>
-          <p class="mt-4 leading-relaxed text-white/80 max-w-sm mx-auto"><!--CARD-NOTE-->Call and we&rsquo;ll get you on the schedule, usually the same day.<!--/CARD-NOTE--></p>
+          <p class="mt-4 leading-relaxed text-white/80 max-w-sm mx-auto">Call and we&rsquo;ll get you on the schedule, usually the same day in Whittier.</p>
           <a href="tel:7143059263" class="btn-call btn-pill w-full text-lg py-4 mt-6">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
             Call 714-305-9263
@@ -156,7 +157,7 @@
       <h2 class="font-heading font-extrabold uppercase text-[#274A6A] text-center" style="font-size:clamp(1.6rem,3.2vw,2.4rem)">Our plumbing services</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 mt-10">
         <div class="svc">
-          <img src="brand_assets/web/DESCALE-6.jpg" alt="Technician feeding a drain cable from a cable machine" class="svc-img" loading="lazy">
+          <img src="../brand_assets/web/DESCALE-6.jpg" alt="Technician feeding a drain cable from a cable machine" class="svc-img" loading="lazy">
           <div class="svc-body">
             <h3>Drain Cleaning</h3>
             <p>Kitchen, bath, laundry and main lines. $55 with a free camera inspection.</p>
@@ -164,7 +165,7 @@
           </div>
         </div>
         <div class="svc">
-          <img src="brand_assets/web/CAMERADSv2jpg.jpg" alt="Sewer camera and monitor set up on a front lawn" class="svc-img" loading="lazy">
+          <img src="../brand_assets/web/CAMERADSv2jpg.jpg" alt="Sewer camera and monitor set up on a front lawn" class="svc-img" loading="lazy">
           <div class="svc-body">
             <h3>Camera Inspection</h3>
             <p>See roots, cracks and buildup on screen, so you know exactly what you&rsquo;re paying for.</p>
@@ -172,7 +173,7 @@
           </div>
         </div>
         <div class="svc">
-          <img src="brand_assets/web/HYDROEDITS-6.jpg" alt="Technician running a hydro jetting hose" class="svc-img" loading="lazy">
+          <img src="../brand_assets/web/HYDROEDITS-6.jpg" alt="Technician running a hydro jetting hose" class="svc-img" loading="lazy">
           <div class="svc-body">
             <h3>Hydro Jetting</h3>
             <p>High-pressure water scours grease and roots off the pipe walls.</p>
@@ -180,7 +181,7 @@
           </div>
         </div>
         <div class="svc">
-          <img src="brand_assets/web/ResizedPermaliner.jpg" alt="Technician preparing a trenchless pipe liner" class="svc-img" loading="lazy">
+          <img src="../brand_assets/web/ResizedPermaliner.jpg" alt="Technician preparing a trenchless pipe liner" class="svc-img" loading="lazy">
           <div class="svc-body">
             <h3>Trenchless Sewer Repair</h3>
             <p>Line a damaged sewer pipe without digging up your yard.</p>
@@ -188,7 +189,7 @@
           </div>
         </div>
         <div class="svc">
-          <img src="brand_assets/web/DanCuttersquoosh.jpg" alt="Robotic cutter reel next to a Rooter Champion van" class="svc-img" loading="lazy">
+          <img src="../brand_assets/web/DanCuttersquoosh.jpg" alt="Robotic cutter reel next to a Rooter Champion van" class="svc-img" loading="lazy">
           <div class="svc-body">
             <h3>Sewer Robotics</h3>
             <p>Robotic cutters remove roots and reopen lines from inside the pipe.</p>
@@ -196,7 +197,7 @@
           </div>
         </div>
         <div class="svc">
-          <img src="brand_assets/web/WaterHeater-1.jpg" alt="Technician working on a water heater" class="svc-img" loading="lazy">
+          <img src="../brand_assets/web/WaterHeater-1.jpg" alt="Technician working on a water heater" class="svc-img" loading="lazy">
           <div class="svc-body">
             <h3>General Plumbing</h3>
             <p>Water heaters, faucets, toilets and leak repairs.</p>
@@ -212,7 +213,7 @@
     <div class="max-w-6xl mx-auto px-5 sm:px-6 flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
       <svg class="w-14 h-14 shrink-0 text-[#0E2033]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/><path d="M15 3a6 6 0 016 6M15 7a2 2 0 012 2"/></svg>
       <div class="flex-1">
-        <h2 class="font-heading font-extrabold uppercase text-[#0E2033] leading-tight" style="font-size:clamp(1.4rem,2.8vw,2rem)"><!--BAND-HEADING-->Call now to book your $55 drain cleaning and free camera inspection<!--/BAND-HEADING--></h2>
+        <h2 class="font-heading font-extrabold uppercase text-[#0E2033] leading-tight" style="font-size:clamp(1.4rem,2.8vw,2rem)">Call now to book your $55 drain cleaning in Whittier</h2>
         <a href="tel:7143059263" class="btn-dark mt-5 text-base px-6 py-3">Call 714-305-9263</a>
       </div>
     </div>
@@ -223,7 +224,11 @@
     <div class="max-w-6xl mx-auto px-5 sm:px-6">
       <h2 class="font-heading font-extrabold uppercase text-[#274A6A]" style="font-size:clamp(1.6rem,3.2vw,2.4rem)">Hear from our customers</h2>
       <div class="grid md:grid-cols-2 gap-4 sm:gap-5 mt-8">
-        <!--REVIEWS-FIRST--><!--/REVIEWS-FIRST-->
+        <figure class="review">
+          <figcaption>Daisy L. <span>Whittier</span></figcaption>
+          <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>&ldquo;My toilet was backed up. David arrived on time, was polite and very professional. He explained everything he was doing and showed me the work after. Most affordable plumbing service I found. Highly recommend!&rdquo;</blockquote>
+        </figure>
         <figure class="review">
           <figcaption>Carolin T. <span>Norwalk</span></figcaption>
           <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
@@ -239,35 +244,49 @@
           <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
           <blockquote>&ldquo;David was great &mdash; cautious, took extra time to locate the issue, ran a couple snakes before the big one, and cleaned up all the mess. Didn&rsquo;t try to oversell. One of the best plumbers I&rsquo;ve ever met.&rdquo;</blockquote>
         </figure>
-        <!--REVIEW-LAST--><figure class="review">
-          <figcaption>Douglas H. <span>Buena Park</span></figcaption>
-          <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <blockquote>&ldquo;I was in a plumbing crisis with flooding from a sewer line. Another plumber&rsquo;s quote would&rsquo;ve required a second mortgage. I got a second opinion with Rooter Champion &mdash; David was excellent, professional, and gave me an honest assessment at a fair price. Look no further!&rdquo;</blockquote>
-        </figure><!--/REVIEW-LAST-->
+        
       </div>
     </div>
   </section>
 
-  <!--AREA-->
-  <!-- ===== AREA ===== -->
-  <section class="bg-white py-14 lg:py-20">
-    <div class="max-w-6xl mx-auto px-5 sm:px-6 grid lg:grid-cols-2 gap-10 items-center">
+  <!-- ===== AREA: WHITTIER ===== -->
+  <section id="local" class="bg-white py-14 lg:py-20">
+    <div class="max-w-6xl mx-auto px-5 sm:px-6 grid lg:grid-cols-2 gap-10 lg:gap-14">
       <div>
-        <h2 class="font-heading font-extrabold uppercase text-[#274A6A]" style="font-size:clamp(1.6rem,3.2vw,2.4rem)">Local to LA &amp; Orange County</h2>
-        <p class="text-lg text-[#0E2033]/75 mt-4 leading-relaxed">Our shop is at 1401 S Beach Blvd in La Habra, right on the LA&ndash;Orange County line. From there our trucks cover both counties, with same-day appointments in most cities.</p>
-        <a href="tel:7143059263" class="btn-call text-lg px-7 py-4 mt-7">Call 714-305-9263</a>
+        <h2 class="font-heading font-extrabold uppercase text-[#274A6A]" style="font-size:clamp(1.6rem,3.2vw,2.4rem)">Drain problems we see in Whittier</h2>
+        <p class="text-lg text-[#0E2033]/75 mt-4 leading-relaxed">We&rsquo;re just east in La Habra, so most Whittier homes are 15 to 25 minutes away.</p>
+        <ul class="space-y-6 mt-8">
+          <li class="border-l-4 border-[#53A6DC] pl-4">
+            <h3 class="font-heading font-extrabold text-lg">Century-old pipes in Uptown</h3>
+            <p class="text-[#0E2033]/70 mt-1 leading-relaxed">Uptown Whittier&rsquo;s older homes often still have original cast iron drains and clay sewer lines. Corrosion and offset joints lead to repeat clogs and slow drains.</p>
+          </li>
+          <li class="border-l-4 border-[#53A6DC] pl-4">
+            <h3 class="font-heading font-extrabold text-lg">Hillside sewer lines</h3>
+            <p class="text-[#0E2033]/70 mt-1 leading-relaxed">Homes in Friendly Hills and the Whittier Hills have long, sloped sewer runs. Over time the ground shifts and lines can settle, sag, or separate.</p>
+          </li>
+          <li class="border-l-4 border-[#53A6DC] pl-4">
+            <h3 class="font-heading font-extrabold text-lg">Roots from mature trees</h3>
+            <p class="text-[#0E2033]/70 mt-1 leading-relaxed">Whittier&rsquo;s established neighborhoods have big, old trees, and their roots work into aging sewer laterals, causing recurring backups.</p>
+          </li>
+        </ul>
       </div>
-      <iframe title="Map of Rooter Champion in La Habra, CA" src="https://maps.google.com/maps?q=1401%20S%20Beach%20Blvd%2C%20La%20Habra%2C%20CA%2090631&amp;z=10&amp;output=embed" class="w-full h-72 sm:h-96 rounded-md border border-[#DDE2E7]" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="lg:pt-2">
+        <iframe title="Map of Whittier, CA" src="https://maps.google.com/maps?q=Whittier%2C%20CA&amp;z=13&amp;output=embed" class="w-full h-72 sm:h-96 rounded-md border border-[#DDE2E7]" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="bg-[#EAF2F8] rounded-md p-5 mt-4">
+          <h3 class="font-heading font-extrabold">Neighborhoods we cover in Whittier</h3>
+          <p class="text-[#0E2033]/80 mt-1 leading-relaxed">Uptown Whittier, Friendly Hills, Whittier Hills, East Whittier, Whittier College area, Whittier Blvd corridor, and everywhere in between.</p>
+          <p class="text-sm text-[#0E2033]/65 mt-2">ZIP codes 90601, 90602, 90603, 90604, 90605 &middot; Los Angeles County</p>
+        </div>
+      </div>
     </div>
   </section>
-  <!--/AREA-->
 
   <!-- ===== FOOTER ===== -->
   <footer class="bg-[#0E2033] text-white/60 text-sm py-10 pb-28 sm:pb-10">
     <div class="max-w-6xl mx-auto px-5 sm:px-6 sm:flex sm:items-center sm:justify-between gap-6">
-      <img src="brand_assets/MainLogo.png" alt="Rooter Champion" class="h-10 w-auto">
+      <img src="../brand_assets/MainLogo.png" alt="Rooter Champion" class="h-10 w-auto">
       <div class="mt-5 sm:mt-0 sm:text-right leading-relaxed">
-        <p><!--FOOTER-AREA-->Serving Los Angeles &amp; Orange County<!--/FOOTER-AREA--> &middot; <a href="tel:7143059263" class="text-white font-semibold underline-offset-2 hover:underline focus-visible:underline">714-305-9263</a></p>
+        <p>Serving Whittier and nearby cities &middot; <a href="tel:7143059263" class="text-white font-semibold underline-offset-2 hover:underline focus-visible:underline">714-305-9263</a></p>
         <p>1401 S Beach Blvd, La Habra, CA 90631 &middot; Licensed &amp; insured &middot; CA Lic. #1063585</p>
         <p class="text-white/40 mt-1">&copy; 2026 Rooter Champion</p>
       </div>
