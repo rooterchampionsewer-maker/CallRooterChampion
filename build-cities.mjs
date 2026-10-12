@@ -101,8 +101,8 @@ function buildCity(c) {
   html = swap(html, 'event_label: el.getAttribute("href") }',
     `event_label: el.getAttribute("href"), city: "${c.name}" }`, 'phone click event');
 
-  // Hero: "Plumbers in <city>" line so ad clicks instantly see they reached a plumber
-  html = block(html, 'HERO-KICKER', `Plumbers in ${where}`);
+  // Hero: "Drain Cleaning in <city>" line matches the ad's keyword (Quality Score: ad ↔ page match)
+  html = block(html, 'HERO-KICKER', `Drain Cleaning in ${where}`);
   // Third headline line names the city
   html = block(html, 'H1-LINE3', `<span class="hero-line">
             ${PIN_ICON}

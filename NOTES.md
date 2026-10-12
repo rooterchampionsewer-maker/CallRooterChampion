@@ -7,9 +7,10 @@ separate project / git repo.
 ## What's built (index.html, single page — redesigned Oct 2026)
 Layout modeled on plumbinggroupservices.com.au; see CLAUDE.md "Don't Look AI-Made" rules.
 - **Header** — logo + "Plumbing · Drains · Sewer" label + green call button.
-- **Hero** — dark photo background; "Plumbers in …" line; stacked icon headline
+- **Hero** — dark photo background; "Plumbers in …" line (city pages: "Drain Cleaning in …" to match the ad keyword); stacked icon headline
   ($55 Drain Cleaning. / Free Camera Inspection. / Same-Day Service.); green check list;
-  **offer card** (rc-navy + faint blue grid, $55 badge on top, centered text, green pill call button).
+  **offer card** (rc-navy + faint blue grid, $55 badge on top, centered text, green pill call button,
+  small trust lines under it that back up the Google Ads claims: upfront quotes, warranty, not a franchise).
 - **Services** — 6 rounded gray cards with inset photo + overlapping white panel, "Call about this ›".
 - **Call band** — full-width green, uppercase heading + dark call button.
 - **Reviews** — 4 white cards on light blue (real reviews from rooterchampion.net).
