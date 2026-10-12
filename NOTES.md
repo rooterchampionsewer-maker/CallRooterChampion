@@ -10,7 +10,7 @@ Layout modeled on plumbinggroupservices.com.au; see CLAUDE.md "Don't Look AI-Mad
 - **Hero** — dark photo background; "Plumbers in …" line (city pages: "Drain Cleaning in …" to match the ad keyword); stacked icon headline
   ($55 Drain Cleaning. / Free Camera Inspection. / Same-Day Service.); green check list;
   **offer card** (rc-navy + faint blue grid, $55 badge on top, centered text, green pill call button,
-  small trust lines under it that back up the Google Ads claims: upfront quotes, warranty, not a franchise).
+  one small trust line under the call button: "Upfront quotes · Warranty-backed work").
 - **Services** — 6 rounded gray cards with inset photo + overlapping white panel, "Call about this ›".
 - **Call band** — full-width green, uppercase heading + dark call button.
 - **Reviews** — 4 white cards on light blue (real reviews from rooterchampion.net).
