@@ -94,6 +94,10 @@ function buildCity(c) {
     telephone: '714-305-9263',
     address: { '@type': 'PostalAddress', streetAddress: '1401 S Beach Blvd', addressLocality: 'La Habra', addressRegion: 'CA', postalCode: '90631', addressCountry: 'US' },
     areaServed: { '@type': 'City', name: c.name, containedInPlace: { '@type': 'AdministrativeArea', name: `${c.county}, CA` } },
+    openingHoursSpecification: [
+      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '08:00', closes: '22:00' },
+      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday', 'Sunday'], opens: '08:00', closes: '17:00' },
+    ],
   };
   html = html.replace(/(<script type="application\/ld\+json">\s*)\{.*\}(\s*<\/script>)/, (_, open, close) => open + JSON.stringify(schema) + close);
 
